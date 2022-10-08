@@ -1,0 +1,108 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/naim/Desktop/Demo_Framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "/Users/naim/Desktop/Demo_Framework",
+        "testIgnore": [],
+        "testMatch": [
+          "stepDef/brooksourcetests/validateBrooksourceURL.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReports.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "/Users/naim/Desktop/Demo_Framework/playwright.config.ts",
+    "rootDir": "/Users/naim/Desktop/Demo_Framework",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.27.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "stepDef/brooksourceTests/validateBrooksourceURL.test.ts",
+      "file": "stepDef/brooksourceTests/validateBrooksourceURL.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Validate the URL",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 5726,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-08T22:22:23.007Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/naim/Desktop/Demo_Framework/test-results/stepDef-brooksourceTests-validateBrooksourceURL-Validate-the-URL/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c86ac82533abb502c47b-6cdd3d4b90ad030b6f8e",
+          "file": "stepDef/brooksourceTests/validateBrooksourceURL.test.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
